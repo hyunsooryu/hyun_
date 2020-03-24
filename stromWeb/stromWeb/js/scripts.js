@@ -95,8 +95,8 @@ $(function() {
         }else{
 
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'strom_files/strom/strom_logo.jpg');
-            navbloglogo.attr('src', 'strom_files/strom/strom_logo.jpg');
+            logo.attr('src', 'strom_files/strom/strom-logo-dark.png');
+            navbloglogo.attr('src', 'strom_files/strom/strom-logo-dark.png');
         }
     });
     
