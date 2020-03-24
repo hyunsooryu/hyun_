@@ -2,17 +2,16 @@
 <html lang="en">
 
 <head>
-
     <!-- Metas -->
     <meta charset="utf-8">
-    <meta name="author" content="ChitrakootWeb" />
+    <meta name="author" content="ChitrakootWeb" />    
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="keywords" content="HTML5 Template Onepage Dicor" />
     <meta name="description" content="Dicor - Creative One Page Multipurpose Template" />
 
     <!-- Title  -->
-    <title>Dicor - Creative One Page Multipurpose Template</title>
+    <title>STROM</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.png">
@@ -26,227 +25,468 @@
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
 
-</head>
+    <!-- added by hyunsoo -->
+    <style>
+        #no-border{
+            border: 0px;
+        }
 
+        #down-btn{
+            width: 140px;
+            height: 27px;
+            display: inline-block;
+            font-size: 25px;
+            line-height: middle;
+            font-family: Roboto, sans-serif;
+            letter-spacing: 0.1px;
+        }
+  
+        .trying{
+            background-color: yellow;
+            width: 350px;
+            height: 250px;
+        }
+    </style>
+
+</head>
 <body>
-    <!-- start header section -->
-    <header>
-        <div class="navbar navbar-dark no-padding fixed-top position-relative">
-            <div class="container">
-                <div class="row d-flex width-100">
-                    <div class="col-7 col-md-7">
-                        <a href="index.html" class="navbar-brand d-flex align-items-center height-70px sm-height-60px">
-                            <img src="img/logo-dark.png" alt="Dicor: Creative One Page Multipurpose Template" title="Dicor: Creative One Page Multipurpose Template" width="180" height="38" />
-                        </a>
-                    </div>
-                    <div class="col-5 col-md-5">
-                        <div class="text-right height-70px sm-height-60px line-height-50 no-padding">
-                            <a class="font-size16 display-inline-block vertical-align-middle margin-15px-top font-weight-700 text-uppercase" href="#features">Features</a>
-                        </div>
-                    </div>
+
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg" id = "no-border">
+        <div class="container">
+            <!-- start logo -->
+            <a class="logo" href="javascript:void(0);" data-scroll-nav="0">
+                <img src="strom_files/strom/strom-logo-dark.png" alt="Strom" title="Strom">
+            </a>
+            <!-- end Logo -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+            </button>
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="javascript:void(0);" data-scroll-nav="0">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);" data-scroll-nav="1">About</a>
+                    </li>
+                    <!--
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);" data-scroll-nav="2">Services</a>
+                    </li>
+                    -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);" data-scroll-nav="3">Products</a>
+                    </li>
+                    <!--
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);" data-scroll-nav="4">Price</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);" data-scroll-nav="5">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);" data-scroll-nav="6">Contact</a>
+                    </li>
+                    -->
+                </ul>
+            </div>
+            <!-- end navbar links -->
+        </div>
+    </nav>
+    <!-- End Navbar  -->
+
+    <!-- Start Header -->
+    <header class="header valign" data-scroll-index="0" data-overlay-dark="6">
+            <video class="bg-vid" poster="strom_files/strom/kitchen.jpg" autoplay="" loop="" muted="">
+                <source src="strom_files/strom/Strom Airfryer_Brand CF.mp4" type="video/mp4">
+            </video>
+        <div class="container">
+            
+            <div class="row" id = "row-id">
+                <div class="col-12 text-center caption" id ="row-caption">
+                 
+                    <!--<h3 class="alt-font font-size28 sm-font-size18 no-margin">We Are Awesome</h3>-->
+                  <!--
+                            <h1 class="banner-headline clip">
+                            <span class="blc">Creative for</span>
+                            <span class="banner-words-wrapper">
+                              <b class="is-visible">Startup</b>
+                              <b>Business</b>
+                              <b>Agency</b>
+                            </span>
+                    </h1>
+                -->
+                <!--
+                    <a href="javascript:void(0);" class="btn" id = "button-down_1">
+                        <span>About</span>
+                    </a>
+                    <a href="javascript:void(0);" class="btn" id = "button-down_2">
+                        <span>Portpolio</span>
+                    </a>
+                -->
                 </div>
             </div>
+            
+        </div>
+        <div class="arrow">
+            <a href="javascript:void(0);" data-scroll-nav="1">
+                <!--<span id = "down-btn">ABOUT US</span>-->
+                <i class="fas fa-chevron-down"></i>
+            </a>
         </div>
     </header>
-    <!-- end header section -->
-    <!-- start intro section -->
-    <section class="bg-extra-dark-gray border-bottom border-top">
-        <div class="container">
+    <!-- End Header -->
+
+    <!-- Start About Section-->
+    <section class="hero no-padding-bottom" data-scroll-index="1">
+        <div class="container margin-50px-bottom">
             <div class="row">
-                <div class="col-lg-8 col-md-8 col-sm-10 center-col text-center last-paragraph-no-margin">
-                    <h5 class="alt-font font-weight-500 text-white text-uppercase margin-5px-bottom sm-no-padding">Dicor</h5>
-                    <p class="alt-font font-weight-500 text-extra-light-gray font-size16 text-uppercase margin-15px-bottom">Creative One Page Multipurpose Template</p>
-                    <div class="separator-line-horrizontal-medium-light2 bg-pink center-col margin-30px-bottom"></div>
-                    <p class="no-margin-bottom text-medium-gray wow fadeInUp">Dicor is a creative, bootstrap 4.0 one page responsive multipurpose HTML5 template. There are included seven homepage variations. This design is very easy to customize and use.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end intro section -->
-    <!-- start demo section -->
-    <section class="bg-light-gray border-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin">
-                    <h5 class="alt-font font-weight-500 text-uppercase margin-15px-bottom">Demos</h5>
+                <div class="col-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center wow fadeInUp">
+                    <div class="alt-font text-pink-color margin-5px-bottom text-uppercase letter-spacing-1">About Strom Company</div>
+                    <h5 class="margin-10px-bottom font-weight-300">문구를 <span class="font-weight-500">넣어</span>주세요.</h5>
                     <div class="separator-line-horrizontal-medium-light2 bg-pink center-col"></div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 margin-30px-bottom">
-                    <div class="text-center box-shadow padding-10px-all bg-white">
-                        <div class="margin-20px-bottom">
-                            <a href="main.html"><img src="img/demos/1.jpg" alt="" /></a>
-                        </div>
-                        <h5 class="font-size16 margin-10px-bottom"><a href="main.html">Main Demo</a></h5>
+                <!-- start feature box item -->
+                <div class="col-lg-4 col-md-12 feature-box1 sm-margin-20px-bottom wow fadeInRight animated" data-wow-delay="0.2s">
+                    <span class="display-table-cell vertical-align-top"></span>
+                    <div class="width-80 margin-20px-left">
+                        <span class="display-block alt-font text-uppercase letter-spacing-1 margin-10px-bottom">문구를</span>
+                        <p>넣어 주세요. 문구를 넣어 주세요. 문구를 넣어 주세요. 문구를 넣어 주세요.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 margin-30px-bottom">
-                    <div class="text-center box-shadow padding-10px-all bg-white">
-                        <div class="margin-20px-bottom">
-                            <a href="creative.html"><img src="img/demos/2.jpg" alt="" /></a>
-                        </div>
-                        <h5 class="font-size16 margin-10px-bottom"><a href="creative.html">Creative Demo</a></h5>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 margin-30px-bottom">
-                    <div class="text-center box-shadow padding-10px-all bg-white">
-                        <div class="margin-20px-bottom">
-                            <a href="particles.html"><img src="img/demos/3.jpg" alt="" /></a>
-                        </div>
-                        <h5 class="font-size16 margin-10px-bottom"><a href="particles.html">Particles Demo</a></h5>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 margin-30px-bottom">
-                    <div class="text-center box-shadow padding-10px-all bg-white">
-                        <div class="margin-20px-bottom">
-                            <a href="slider.html"><img src="img/demos/4.jpg" alt="" /></a>
-                        </div>
-                        <h5 class="font-size16 margin-10px-bottom"><a href="slider.html">Slider Demo</a></h5>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 margin-30px-bottom">
-                    <div class="text-center box-shadow padding-10px-all bg-white">
-                        <div class="margin-20px-bottom">
-                            <a href="bgvideo.html"><img src="img/demos/5.jpg" alt="" /></a>
-                        </div>
-                        <h5 class="font-size16 margin-10px-bottom"><a href="bgvideo.html">Video Demo</a></h5>
-                    </div>
-                </div>
+                <!-- end feature box item -->
 
-                <div class="col-lg-4 col-md-6 margin-30px-bottom">
-                    <div class="text-center box-shadow padding-10px-all bg-white">
-                        <div class="margin-20px-bottom">
-                            <a href="parallax.html"><img src="img/demos/6.jpg" alt="" /></a>
-                        </div>
-                        <h5 class="font-size16 margin-10px-bottom"><a href="parallax.html">Parallax Demo</a></h5>
+                <!-- start feature box item -->
+                <div class="col-lg-4 col-md-12 feature-box1 sm-margin-20px-bottom wow fadeInRight animated" data-wow-delay="0.4s">
+                    <span class="display-table-cell vertical-align-top"></span>
+                    <div class="width-80 margin-20px-left">
+                        <span class="display-block alt-font text-uppercase letter-spacing-1 margin-10px-bottom">sample</span>
+                        <p>I am make sure this template is use for your creative business.More feature available for you creative design.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 margin-30px-bottom">
-                    <div class="text-center box-shadow padding-10px-all bg-white">
-                        <div class="margin-20px-bottom">
-                            <a href="slider-text.html"><img src="img/demos/7.jpg" alt="" /></a>
-                        </div>
-                        <h5 class="font-size16 margin-10px-bottom"><a href="slider-text.html">Text Slider Demo</a></h5>
+                <!-- end feature box item -->
+
+                <!-- start feature box item-->
+                <div class="col-lg-4 col-md-12 feature-box1 wow fadeInRight animated" data-wow-delay="0.6s">
+                    <span class="display-table-cell vertical-align-top"></span>
+                    <div class="width-80 margin-20px-left">
+                        <span class="display-block alt-font text-uppercase letter-spacing-1 margin-10px-bottom">sample</span>
+                        <p class="no-margin">I am make sure this template is use for your creative business.More feature available for you creative design.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 margin-30px-bottom">
-                    <div class="text-center box-shadow padding-10px-all bg-white">
-                        <div class="margin-20px-bottom">
-                            <a href="blog.html"><img src="img/demos/8.jpg" alt="" /></a>
-                        </div>
-                        <h5 class="font-size16 margin-10px-bottom"><a href="blog.html">Blog</a></h5>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 margin-30px-bottom">
-                    <div class="text-center box-shadow padding-10px-all bg-white">
-                        <div class="margin-20px-bottom">
-                            <a href="single-post.html"><img src="img/demos/9.jpg" alt="" /></a>
-                        </div>
-                        <h5 class="font-size16 margin-10px-bottom"><a href="single-post.html">Single Post</a></h5>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 margin-30px-bottom">
-                    <div class="text-center box-shadow padding-10px-all bg-white">
-                        <div class="margin-20px-bottom">
-                            <a href="comingsoon.html"><img src="img/demos/10.jpg" alt="" /></a>
-                        </div>
-                        <h5 class="font-size16 margin-10px-bottom"><a href="comingsoon.html">Coming Soon</a></h5>
-                    </div>
-                </div>
+                <!-- end feature box item -->
             </div>
         </div>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- start slogan -->
+                <div class="col-lg-4 col-md-6 col-sm-12 padding-two-all xs-padding-50px-tb xs-padding-20px-lr bg-black position-relative wow fadeInLeft" data-wow-delay="0.6s">
+                    <div class="absolute-middle-center xs-absolute-middle-inherit width-80">
+                        <i class="fas fa-quote-left font-size28 margin-15px-bottom text-pink-color"></i>
+                        <span class="font-size28 xs-font-size22 alt-font text-uppercase letter-spacing-2 text-white display-block">we are working to build a best plans for your future To solving your problems.</span>
+                    </div>
+                </div>
+                <!-- end slogan -->
+
+                <!-- start our story video-->
+                <div class="col-lg-4 col-md-6 col-sm-12 story-video cover-background wow fadeInLeft" data-wow-delay="0.4s" style="background-image:url('strom_files/strom/kitchen.jpg');">
+                    
+                </div>
+                <!-- end our story video -->
+
+                <!-- start skills-->
+                <div class="col-lg-4 col-md-6 col-sm-12 story-video cover-background wow fadeInLeft" data-wow-delay="0.4s" style="background-image:url('strom_files/strom/4.JPG');">
+                    
+                </div>
+                <!-- end skills-->
+            </div>
+       
     </section>
-    <!-- end demo section -->
-    <section id="features">
+    <!-- End About Section-->
+
+    <!--  Start Services Section -->
+    
+    <!-- End Services Section -->
+
+    <!--  Start Counter Section -->
+    
+    <!-- End Counter Section -->
+
+    <!-- Start Portfolio Section -->
+    <section class="portfolio" data-scroll-index="3">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin">
-                    <h5 class="alt-font font-weight-500 text-extra-dark-gray text-uppercase margin-15px-bottom sm-no-padding">Features</h5>
+                <div class="col-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center wow fadeInUp">
+                    <div class="alt-font text-pink-color margin-5px-bottom text-uppercase letter-spacing-1">Products</div>
+                    <h5 class="margin-10px-bottom font-weight-300">문구를 <span class="font-weight-500">넣어 </span> 주세요</h5>
                     <div class="separator-line-horrizontal-medium-light2 bg-pink center-col"></div>
                 </div>
             </div>
-
             <div class="row">
-                <div class="col-lg-4 col-md-12">
-                    <div class="text-center border padding-25px-tb padding-10px-lr margin-20px-bottom">
-                        <h5 class="font-size15 font-weight-400  no-margin-bottom">Bootstrap 4.0 With SASS</h5>
+                <!-- Start links -->
+                <!-- End links -->
+                <div class="clearfix"></div>
+                <!-- gallery -->
+                <div class="gallery text-center width-100">
+                    <!-- start gallery item -->
+                    <div class="col-md-4 items design">
+                        <div class="item-img">
+                            
+                            <img src="strom_files/strom/1.JPG" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info width-100 vertical-center">
+                                    <h6>item 제목</h6>
+                                    <p>간단한 설명</p>
+                                    <a href="strom_files/strom/1.JPG" class="popimg">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="text-center border padding-25px-tb padding-10px-lr margin-20px-bottom">
-                        <h5 class="font-size15 font-weight-400  no-margin-bottom">CSS Animations</h5>
+                    <!-- end gallery item -->
+                    <!-- start gallery item -->
+                    <div class="col-md-4 items design">
+                        <div class="item-img">
+                            <img src="strom_files/strom/2.JPG" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info width-100 vertical-center">
+                                    <h6>item 제목</h6>
+                                    <p>간단한 설명</p>
+                                    <a href="strom_files/strom/2.JPG" class="popimg">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="text-center border padding-25px-tb padding-10px-lr margin-20px-bottom">
-                        <h5 class="font-size15 font-weight-400  no-margin-bottom">Working Contact Form</h5>
+                   
+                    <!-- end gallery item -->
+                    <!-- start gallery item -->
+                    <div class="col-md-4 items develop">
+                        <div class="item-img">
+                            <img src="strom_files/strom/3.JPG" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info width-100 vertical-center">
+                                    <h6>item 제목</h6>
+                                    <p>간단한 설명</p>
+                                    <a href="strom_files/strom/3.JPG" class="popimg">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="text-center border padding-25px-tb padding-10px-lr margin-20px-bottom">
-                        <h5 class="font-size15 font-weight-400  no-margin-bottom">Creative and Modern Flat Design</h5>
+                    <!-- end gallery item -->
+                    <!-- start gallery item -->
+                    <div class="col-md-4 items graphic">
+                        <div class="item-img">
+                            <img src="strom_files/strom/6.JPG" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info width-100 vertical-center">
+                                    <h6>item 제목</h6>
+                                    <p>간단한 설명</p>
+                                    <a href="strom_files/strom/6.JPG" class="popimg">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="text-center border padding-25px-tb padding-10px-lr margin-20px-bottom">
-                        <h5 class="font-size15 font-weight-400  no-margin-bottom">Google Fonts</h5>
+                    <!-- end gallery item -->
+                    <!-- start gallery item -->
+                    <div class="col-md-4 items graphic">
+                        <div class="item-img">
+                            <img src="strom_files/strom/5.JPG" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info width-100 vertical-center">
+                                    <h6>item 제목</h6>
+                                    <p>간단한 설명</p>
+                                    <a href="strom_files/strom/5.JPG" class="popimg">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="text-center border padding-25px-tb padding-10px-lr margin-20px-bottom">
-                        <h5 class="font-size15 font-weight-400  no-margin-bottom">W3C Valid Markup</h5>
+                    <!-- end gallery item -->
+                    <!-- start gallery item -->
+                    <div class="col-md-4 items design">
+                        <div class="item-img">
+                            <img src="strom_files/strom/10.JPG" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info width-100 vertical-center">
+                                    <h6>item 제목</h6>
+                                    <p>간단한 설명</p>
+                                    <a href="strom_files/strom/10.JPG" class="popimg">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="text-center border padding-25px-tb padding-10px-lr margin-20px-bottom">
-                        <h5 class="font-size15 font-weight-400  no-margin-bottom">Fully Responsive</h5>
+                    <!-- end gallery item -->
+                    <!-- start gallery item -->
+                    <div class="col-md-4 items">
+                        <div class="item-img">
+                            <img src="strom_files/strom/9.JPG" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info width-100 vertical-center">
+                                    <h6>item 제목</h6>
+                                    <p>간단한 설명</p>
+                                    <a href="strom_files/strom/9.JPG" class="popimg">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="text-center border padding-25px-tb padding-10px-lr margin-20px-bottom">
-                        <h5 class="font-size15 font-weight-400  no-margin-bottom">Cross Browser Compatibility</h5>
+                    <div class="col-md-4 items design">
+                        <div class="item-img">
+                            <img src="strom_files/strom/8.JPG" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info width-100 vertical-center">
+                                    <h6>item 제목</h6>
+                                    <p>간단한 설명</p>
+                                    <a href="strom_files/strom/8.JPG" class="popimg">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="text-center border padding-25px-tb padding-10px-lr margin-20px-bottom">
-                        <h5 class="font-size15 font-weight-400  no-margin-bottom">Font Icons</h5>
+                    <div class="col-md-4 items design">
+                        <div class="item-img">
+                            <img src="strom_files/strom/7.JPG" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info width-100 vertical-center">
+                                    <h6>item 제목</h6>
+                                    <p>간단한 설명</p>
+                                    <a href="strom_files/strom/7.JPG" class="popimg">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+                              
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="text-center border padding-25px-tb padding-10px-lr margin-20px-bottom">
-                        <h5 class="font-size15 font-weight-400  no-margin-bottom">Seo Friendly Clean Code</h5>
+                    <div class="col-md-4 items design">
+                        <div class="item-img">     
+                            <img src="strom_files/strom/11.JPG" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info width-100 vertical-center">
+                                    <h6>item 제목</h6> 
+                                    <p>간단한 설명</p>
+                                    <a href="strom_files/strom/11.JPG" class="popimg">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+                            </div>     
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="text-center border padding-25px-tb padding-10px-lr margin-20px-bottom">
-                        <h5 class="font-size15 font-weight-400  no-margin-bottom">Well Documented</h5>
+                    <!--
+                    <div class="col-md-4 items design">
+                        <div class="item-img">     
+                            <img src="strom_files/strom/10.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info width-100 vertical-center">
+                                    <h6>item 제목</h6> 
+                                    <p>간단한 설명</p>
+                                    <a href="strom_files/strom/10.jpg" class="popimg">
+                                        <i class="fa fa-search-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="text-center border padding-25px-tb padding-10px-lr margin-20px-bottom">
-                        <h5 class="font-size15 font-weight-400  no-margin-bottom">Neat, Clean and Simple Design</h5>
-                    </div>
+                    -->
+                    <!-- end gallery item -->
+                    <div class="clear-fix"></div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- start footer section -->
+    <!-- End Portfolio Section -->
+
+    <!-- Start Testimonials & Faq's Section -->
+   
+    <!-- End Testimonials & Faq's Section -->
+
+    <!-- Start Team Section -->
+   
+    <!-- End Team Section -->
+
+    <!-- Start Price Section -->
+   
+    <!-- End Price Section -->
+
+    <!-- Start Blog Section -->
+   
+    <!-- End Blog Section -->
+
+    <!-- Start Contact Section -->
+    
+    <!-- End Contact Section -->
+
+    <!-- Start Clients Section-->
+  
+    <!-- End Clients Section -->
+
+    <!--  Start Footer Section -->
     <footer class="bg-white">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <!-- start footer logo -->
+                    <div class="col-md-12 col-sm-12 text-center wow fadeInUp">
+                        <div class="text-center">
+                            <a href="javascript:void(0)"><img src="strom_files/strom/strom_logo.JPG" data-scroll-nav="0" alt="Strom" title="Strom" width="180" height="38"></a>
+                        </div>
+                        <span class="font-size11 alt-font text-uppercase  display-block letter-spacing-1 text-dark-gray margin-15px-top margin-30px-bottom xs-margin-fifteen">문구가 들어갈 곳 입니다</span>
+                    </div>
+                    <!-- end footer logo -->
+                    <!-- start social media link -->
+                    <div class="col-md-12 col-sm-12 text-center wow fadeInUp">
+                        <div class="footer-social">
+                            <a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a>
+                            <a href="javascript:void(0);"><i class="fab fa-twitter"></i></a>
+                            <a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="javascript:void(0);"><i class="fab fa-dribbble"></i></a>
+                            <a href="javascript:void(0);"><i class="fab fa-youtube"></i></a>
+                            <a href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <!-- end social media link -->
+                </div>
+            </div>
+        </div>
         <div class="footer-bottom bg-black">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 text-center">
-                        <span class="font-size12 text-uppercase letter-spacing-1">&copy; 2018 Dicor is Powered by Chitrakoot Web</span>
+                        <span class="font-size12 text-uppercase letter-spacing-1">COPYRIGHT © STROM 2020</span>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="back-to-top" class="back-to-top">
+        <div id="back-to-top" class="back-to-top reveal">
             <i class="fa fa-angle-up"></i>
         </div>
     </footer>
-    <!-- end footer section -->
+    <!-- End Footer Section -->
 
     <!-- jQuery -->
     <script src="js/jquery-3.0.0.min.js"></script>
@@ -284,9 +524,19 @@
 
     <!-- isotope.pkgd.min js -->
     <script src="js/isotope.pkgd.min.js"></script>
+    
+    <!-- Map -->
+    <script src="js/map.js"></script>
 
     <!-- custom scripts -->
     <script src="js/scripts.js"></script>
+
+    <!-- google map api -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqFuLx8S7A8eianoUhkYMeXpGPvsXp1NM&amp;callback=initMap" async defer></script>
+
+    <!-- contact form scripts -->
+    <script src="js/mailform/jquery.form.min.js"></script>
+    <script src="js/mailform/jquery.rd-mailform.min.c.js"></script>
 
 </body>
 

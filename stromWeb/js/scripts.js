@@ -90,13 +90,13 @@ $(function() {
         if(bodyScroll > 100){
 
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'strom_files/strom/strom_logo.jpg');
+            logo.attr('src', 'strom_files/strom/strom_logo.JPG');
 
         }else{
 
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'strom_files/strom/strom_logo.jpg');
-            navbloglogo.attr('src', 'strom_files/strom/strom_logo.jpg');
+            logo.attr('src', 'strom_files/strom/strom-logo-dark.png');
+            navbloglogo.attr('src', 'strom_files/strom/strom-logo-dark.png');
         }
     });
     
