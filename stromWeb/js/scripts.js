@@ -68,7 +68,6 @@ $(function() {
         return false;
     });
 
-    
     // wow animation - on scroll
     var wow = new WOW({
         boxClass: 'wow', // default

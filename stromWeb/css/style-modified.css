@@ -1,0 +1,23 @@
+#no-border{
+    border: 0px;
+}
+
+#down-btn{
+    width: 140px;
+    height: 27px;
+    display: inline-block;
+    font-size: 25px;
+    line-height: middle;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.1px;
+}
+
+.trying{
+    background-color: yellow;
+    width: 350px;
+    height: 250px;
+}
+
+.navbar{
+    padding: 5px 1rem;
+}
