@@ -25,26 +25,16 @@
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <!-- added by hyunsoo -->
-    <style>
-        #no-border{
-            border: 0px;
-        }
+    <link rel = "stylesheet" href = "css/style-modified.css"/>
 
-        #down-btn{
-            width: 140px;
-            height: 27px;
-            display: inline-block;
-            font-size: 25px;
-            line-height: middle;
-            font-family: Roboto, sans-serif;
-            letter-spacing: 0.1px;
+    <!-- added by hyunsoo -->
+    <style> 
+        #center_text{
+            text-align: center;
+           
         }
-  
-        .trying{
-            background-color: yellow;
-            width: 350px;
-            height: 250px;
+        .make_bold{
+            font-weight: bold;
         }
     </style>
 
@@ -99,8 +89,8 @@
 
     <!-- Start Header -->
     <header class="header valign" data-scroll-index="0" data-overlay-dark="6">
-            <video class="bg-vid" poster="strom_files/strom/kitchen.jpg" autoplay="" loop="" muted="">
-                <source src="strom_files/strom/Strom Airfryer_Brand CF.mp4" type="video/mp4">
+            <video id = "main-video" class="bg-vid" poster="strom_files/strom/pic_1.JPG" autoplay="" loop="" muted="true">
+                <source src="strom_files/strom/strom_sec_2.mp4" type="video/mp4">
             </video>
         <div class="container">
             
@@ -142,41 +132,33 @@
     <!-- Start About Section-->
     <section class="hero no-padding-bottom" data-scroll-index="1">
         <div class="container margin-50px-bottom">
-            <div class="row">
+            <div class="row"> 
                 <div class="col-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center wow fadeInUp">
                     <div class="alt-font text-pink-color margin-5px-bottom text-uppercase letter-spacing-1">About Strom Company</div>
-                    <h5 class="margin-10px-bottom font-weight-300">문구를 <span class="font-weight-500">넣어</span>주세요.</h5>
+                    <img src = "strom_files/strom/strom_logo.JPG">
                     <div class="separator-line-horrizontal-medium-light2 bg-pink center-col"></div>
-                </div>
+                </div> 
             </div>
             <div class="row">
+                
                 <!-- start feature box item -->
                 <div class="col-lg-4 col-md-12 feature-box1 sm-margin-20px-bottom wow fadeInRight animated" data-wow-delay="0.2s">
-                    <span class="display-table-cell vertical-align-top"></span>
-                    <div class="width-80 margin-20px-left">
-                        <span class="display-block alt-font text-uppercase letter-spacing-1 margin-10px-bottom">문구를</span>
-                        <p>넣어 주세요. 문구를 넣어 주세요. 문구를 넣어 주세요. 문구를 넣어 주세요.</p>
-                    </div>
+                    
                 </div>
                 <!-- end feature box item -->
 
                 <!-- start feature box item -->
-                <div class="col-lg-4 col-md-12 feature-box1 sm-margin-20px-bottom wow fadeInRight animated" data-wow-delay="0.4s">
-                    <span class="display-table-cell vertical-align-top"></span>
-                    <div class="width-80 margin-20px-left">
-                        <span class="display-block alt-font text-uppercase letter-spacing-1 margin-10px-bottom">sample</span>
-                        <p>I am make sure this template is use for your creative business.More feature available for you creative design.</p>
-                    </div>
+                <div id = "center_text" class="col-lg-4 col-md-12 feature-box1 sm-margin-20px-bottom wow fadeInRight animated" data-wow-delay="0.4s">
+                  <span class = "font-size26 xs-font-size22 alt-font text-uppercase letter-spacing-2 display-block">German&nbspTechnology</span>
+                  <br>
+                  <span class = "font-size26 xs-font-size22 alt-font text-uppercase letter-spacing-2 display-block">European&nbspSensibility</span>
+                  <br>
                 </div>
                 <!-- end feature box item -->
 
                 <!-- start feature box item-->
                 <div class="col-lg-4 col-md-12 feature-box1 wow fadeInRight animated" data-wow-delay="0.6s">
-                    <span class="display-table-cell vertical-align-top"></span>
-                    <div class="width-80 margin-20px-left">
-                        <span class="display-block alt-font text-uppercase letter-spacing-1 margin-10px-bottom">sample</span>
-                        <p class="no-margin">I am make sure this template is use for your creative business.More feature available for you creative design.</p>
-                    </div>
+                    
                 </div>
                 <!-- end feature box item -->
             </div>
@@ -184,10 +166,17 @@
         <div class="container-fluid">
             <div class="row">
                 <!-- start slogan -->
-                <div class="col-lg-4 col-md-6 col-sm-12 padding-two-all xs-padding-50px-tb xs-padding-20px-lr bg-black position-relative wow fadeInLeft" data-wow-delay="0.6s">
+                <div class="col-lg-4 col-md-6 col-sm-12 padding-two-all xs-padding-50px-tb xs-padding-5px-lr bg-black position-relative wow fadeInLeft" data-wow-delay="0.6s">
                     <div class="absolute-middle-center xs-absolute-middle-inherit width-80">
                         <i class="fas fa-quote-left font-size28 margin-15px-bottom text-pink-color"></i>
-                        <span class="font-size28 xs-font-size22 alt-font text-uppercase letter-spacing-2 text-white display-block">we are working to build a best plans for your future To solving your problems.</span>
+                        <span class="font-size28 xs-font-size16 text-uppercase alt-font letter-spacing-2 text-white display-block">
+                            <span class = "display-block"><span class = "make_bold">S</span>how  your  house</span>
+                            <span class = "display-block"><span class = "make_bold">T</span>echnology  for  human</span>
+                            <span class = "display-block"><span class = "make_bold">R</span>eliable  quality</span>
+                            <span class = "display-block"><span class = "make_bold">O</span>riginal  global  brand</span>
+                            <span class = "display-block"><span class = "make_bold">M</span>ake  your  home</span>
+
+                        </span>
                     </div>
                 </div>
                 <!-- end slogan -->
@@ -222,7 +211,7 @@
             <div class="row">
                 <div class="col-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center wow fadeInUp">
                     <div class="alt-font text-pink-color margin-5px-bottom text-uppercase letter-spacing-1">Products</div>
-                    <h5 class="margin-10px-bottom font-weight-300">문구를 <span class="font-weight-500">넣어 </span> 주세요</h5>
+                    <h5 class="margin-10px-bottom font-weight-300"><span class="font-weight-500">PRODUCT LINE UP</span></h5>
                     <div class="separator-line-horrizontal-medium-light2 bg-pink center-col"></div>
                 </div>
             </div>
@@ -239,8 +228,7 @@
                             <img src="strom_files/strom/1.JPG" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info width-100 vertical-center">
-                                    <h6>item 제목</h6>
-                                    <p>간단한 설명</p>
+                                    <h6>Stain Gas Stove</h6>
                                     <a href="strom_files/strom/1.JPG" class="popimg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
@@ -257,8 +245,7 @@
                             <img src="strom_files/strom/2.JPG" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info width-100 vertical-center">
-                                    <h6>item 제목</h6>
-                                    <p>간단한 설명</p>
+                                    <h6>Ceramic Pot Set</h6>
                                     <a href="strom_files/strom/2.JPG" class="popimg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
@@ -275,8 +262,7 @@
                             <img src="strom_files/strom/3.JPG" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info width-100 vertical-center">
-                                    <h6>item 제목</h6>
-                                    <p>간단한 설명</p>
+                                    <h6>Slim Gas Cooker</h6>
                                     <a href="strom_files/strom/3.JPG" class="popimg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
@@ -291,8 +277,7 @@
                             <img src="strom_files/strom/6.JPG" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info width-100 vertical-center">
-                                    <h6>item 제목</h6>
-                                    <p>간단한 설명</p>
+                                    <h6>Stainless Pot Set</h6>
                                     <a href="strom_files/strom/6.JPG" class="popimg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
@@ -308,8 +293,7 @@
                             <img src="strom_files/strom/5.JPG" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info width-100 vertical-center">
-                                    <h6>item 제목</h6>
-                                    <p>간단한 설명</p>
+                                    <h6>Air Fryer</h6>
                                     <a href="strom_files/strom/5.JPG" class="popimg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
@@ -325,8 +309,7 @@
                             <img src="strom_files/strom/10.JPG" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info width-100 vertical-center">
-                                    <h6>item 제목</h6>
-                                    <p>간단한 설명</p>
+                                    <h6>Heating Blender</h6>
                                     <a href="strom_files/strom/10.JPG" class="popimg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
@@ -342,8 +325,7 @@
                             <img src="strom_files/strom/9.JPG" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info width-100 vertical-center">
-                                    <h6>item 제목</h6>
-                                    <p>간단한 설명</p>
+                                    <h6>Multi Gas Stove</h6>
                                     <a href="strom_files/strom/9.JPG" class="popimg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
@@ -357,13 +339,11 @@
                             <img src="strom_files/strom/8.JPG" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info width-100 vertical-center">
-                                    <h6>item 제목</h6>
-                                    <p>간단한 설명</p>
+                                    <h6>Food Steamer</h6>
                                     <a href="strom_files/strom/8.JPG" class="popimg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -372,8 +352,7 @@
                             <img src="strom_files/strom/7.JPG" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info width-100 vertical-center">
-                                    <h6>item 제목</h6>
-                                    <p>간단한 설명</p>
+                                    <h6>Induction Cooker</h6>
                                     <a href="strom_files/strom/7.JPG" class="popimg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
@@ -387,8 +366,7 @@
                             <img src="strom_files/strom/11.JPG" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info width-100 vertical-center">
-                                    <h6>item 제목</h6> 
-                                    <p>간단한 설명</p>
+                                    <h6>Hybrid Gas Stove</h6> 
                                     <a href="strom_files/strom/11.JPG" class="popimg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
@@ -455,21 +433,8 @@
                         <div class="text-center">
                             <a href="javascript:void(0)"><img src="strom_files/strom/strom_logo.JPG" data-scroll-nav="0" alt="Strom" title="Strom" width="180" height="38"></a>
                         </div>
-                        <span class="font-size11 alt-font text-uppercase  display-block letter-spacing-1 text-dark-gray margin-15px-top margin-30px-bottom xs-margin-fifteen">문구가 들어갈 곳 입니다</span>
                     </div>
                     <!-- end footer logo -->
-                    <!-- start social media link -->
-                    <div class="col-md-12 col-sm-12 text-center wow fadeInUp">
-                        <div class="footer-social">
-                            <a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a>
-                            <a href="javascript:void(0);"><i class="fab fa-twitter"></i></a>
-                            <a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a>
-                            <a href="javascript:void(0);"><i class="fab fa-dribbble"></i></a>
-                            <a href="javascript:void(0);"><i class="fab fa-youtube"></i></a>
-                            <a href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <!-- end social media link -->
                 </div>
             </div>
         </div>
@@ -488,6 +453,12 @@
     </footer>
     <!-- End Footer Section -->
 
+
+    <script>
+        window.onload = function(){
+            document.getElementById('main-video').mute = true;
+        }
+    </script>
     <!-- jQuery -->
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.min.js"></script>
