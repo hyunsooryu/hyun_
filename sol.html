@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js""></script>
+    <script>
+        var basic2Num = [
+            2438,
+            2439,
+            2440,
+            2441,
+            2442,
+            2444,
+            2445,
+            2446,
+            2522,
+            10991,
+            10992
+        ];
+
+        var basic1Num = [
+            2741,
+            2742,
+            2739,
+            1924,
+            8393,
+            10818
+
+        ];
+            $(document).ready(function(){
+                var b1 = 1;
+                for(var num of basic2Num){
+                    $("#basic2").append(`<a href = 'http://www.acmicpc.net/problem/${num}'>문제${b1}</a><br>`)
+                    b1++;
+                }
+                b1 = 1;
+                for(var num of basic1Num){
+                    $("#basic1").append(`<a href = 'http://www.acmicpc.net/problem/${num}'>문제${b1}</a><br>`)
+                    b1++;
+                }
+            });
+    </script>
+</head>
+<body>
+    솔이 화이팅~  ❤
+    <h2>기초-1</h2>
+    <div id = "basic1"></div>
+    <h2>기초-2</h2>
+    <div id = "basic2"></div>
+</body>
+</html>
