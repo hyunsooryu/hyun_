@@ -4,13 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>상용, 현욱의 알고리즘 방</title>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <title>고려대.. 나도 가고싶다..</title>
+  <style>
+      #koreaUniv, #Ssu{
+          width: 200px;
+          height: 200px;
+      }
+      #span{
+          width : 200px;
+          height : 200px;
+          display: inline-block;
+          font-size: 100px;
+          margin-left:100px;
+      }
+      #hidden{
+          display: none;
+      }
+  </style>
 </head>
 <body>
-  <a href = "https://www.acmicpc.net/problem/1260">문제 1</a>
-  <a href = "https://www.acmicpc.net/problem/11724">문제 2</a>
-  <a href = "https://programmers.co.kr/learn/courses/30/lessons/42576">문제 3</a>
-  <a href = "https://programmers.co.kr/learn/courses/30/lessons/42577">문제 4</a>
-  <a href = "https://programmers.co.kr/learn/courses/30/lessons/42578">문제 5</a>
+  <h1 id = "koreaText">고려대 생 개 부럽네 ..</h1>
+  <img id = "koreaUniv" src = "data:image/png;base64,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"/>
+  <span id = "span">VS</span>
+  <img id = "Ssu" src = "https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile8.uf.tistory.com%2Fimage%2F146399214B8CD25F34F037">
+  <h1 id = "kkk">휴..</h1>
+  <h2 id = "ff">누군 고려대 석사고.. </h2>
+  <button id = "btn">클릭하시면 문제 링크를 볼수있습니다.알려드려요^^</button>
+  <div id = "hidden">
+  <h2><a href = "https://www.acmicpc.net/problem/7576">문제 1</a></h2>
+  <h2><a href = "https://www.acmicpc.net/problem/2178">문제 2</a></h2>
+  <h2><a href = "https://www.acmicpc.net/problem/1697">문제 3</a></h2>
+  <h2><a href = "https://www.acmicpc.net/problem/7562">문제 4</a></h2>
+  </div>
+  <script>
+      $("#btn").on('click', function(){
+          $("#kkk").text("응 구라~ ^_^");
+        $("#span").text("숭실대가 최고야 이쉐끼들아 ");
+        $("#koreaText").text("사랑해요 갓숭실!!!!!");
+        $("#koreaUniv").attr('src',"https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile8.uf.tistory.com%2Fimage%2F146399214B8CD25F34F037");
+        $("#btn").css('display','none');
+        $("#ff").text("숭실대 학사 최고 사랑해요 숭실대 하트뿅뿅 ㅎㅎ");
+        $("#hidden").css('display','block');
+       
+      });
+
+    
+      
+  </script>
 </body>
 </html>
